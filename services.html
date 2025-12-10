@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>บริการของเรา - Mala Blaze หม่าล่าปิ้งย่าง</title>
+    <meta name="description" content="บริการหม่าล่าปิ้งย่างเสียบไม้ หม้อไฟหม่าล่า และชุดปิ้งย่างเดลิเวอรี จากร้าน Mala Blaze">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #b30000;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 40px;
+        }
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 1000px;
+            margin: 20px auto 40px;
+            padding: 0 20px;
+        }
+        h1, h2 {
+            color: #b30000;
+        }
+        section.service {
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        section.service h2 {
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #f5f5f5;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header + Navigation -->
+    <header>
+        <div class="logo-area">
+            <img src="images/logo.png" alt="โลโก้ร้าน Mala Blaze">
+            <div>
+                <strong>Mala Blaze</strong><br>
+                <small>หม่าล่าปิ้งย่าง & หม้อไฟเสฉวน</small>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">หน้าแรก</a>
+            <a href="about.html">เกี่ยวกับ</a>
+            <a href="services.html">บริการ</a>
+            <a href="contact.html">ติดต่อ</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>บริการของ Mala Blaze</h1>
+
+        <!-- 3.2 ใช้ <section> สำหรับแต่ละบริการ -->
+        <section class="service" aria-labelledby="svc1">
+            <h2 id="svc1">1. หม่าล่าปิ้งย่างเสียบไม้ (หน้าร้าน)</h2>
+            <p>
+                เลือกเสียบไม้และระดับความเผ็ดได้ตามใจชอบ มีทั้งเนื้อสัตว์ ผัก และลูกชิ้นต่าง ๆ
+                เหมาะสำหรับทานเล่นหรือเป็นมื้อหลักก็ได้
+            </p>
+            <ul>
+                <li>เสียบไม้เริ่มต้น: 10–20 บาท/ไม้ (ปรับตามจริงได้)</li>
+                <li>ระดับความเผ็ด: 0, 25%, 50%, 75%, 100%</li>
+                <li>ทานที่ร้าน บริการน้ำจิ้มและเครื่องเคียง</li>
+            </ul>
+        </section>
+
+        <section class="service" aria-labelledby="svc2">
+            <h2 id="svc2">2. หม้อไฟหม่าล่า</h2>
+            <p>
+                หม้อไฟหม่าล่าน้ำแดง สูตรเข้มข้น เสิร์ฟพร้อมชุดเนื้อและผัก
+                เพิ่มเส้น วุ้นเส้น เห็ด ลูกชิ้นได้ตามต้องการ
+            </p>
+            <ul>
+                <li>ชุด 2–3 คน / 4–5 คน</li>
+                <li>เลือกความเผ็ดได้ 3 ระดับ: เผ็ดน้อย, เผ็ดกลาง, เผ็ดมาก</li>
+                <li>เหมาะกับการนั่งทานเป็นกลุ่ม</li>
+            </ul>
+        </section>
+
+        <section class="service" aria-labelledby="svc3">
+            <h2 id="svc3">3. ชุดปิ้งย่าง & เดลิเวอรี</h2>
+            <p>
+                จัดชุดปิ้งย่างพร้อมเตา ซอส และเครื่องเคียง ส่งให้ถึงบ้าน
+                เหมาะสำหรับปาร์ตี้ในบ้านหรืออีเวนต์ต่าง ๆ
+            </p>
+            <ul>
+                <li>มีแพ็กเกจให้เลือกตามจำนวนคน</li>
+                <li>เตาให้ยืม หรือซื้อเพิ่มได้ (ขึ้นอยู่กับเงื่อนไขร้าน)</li>
+                <li>ส่งเดลิเวอรีตามระยะทาง</li>
+            </ul>
+        </section>
+
+        <!-- 3.3 ตารางเปรียบเทียบแพ็กเกจ -->
+        <section aria-labelledby="pkg-table-title">
+            <h2 id="pkg-table-title">ตารางเปรียบเทียบแพ็กเกจชุดปาร์ตี้</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>แพ็กเกจ</th>
+                        <th>จำนวนคนแนะนำ</th>
+                        <th>รวมเสียบไม้โดยประมาณ</th>
+                        <th>เตาปิ้ง</th>
+                        <th>ราคาประมาณ (บาท)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic</td>
+                        <td>2–3 คน</td>
+                        <td>40 ไม้</td>
+                        <td>ไม่มี (ลูกค้ามีเตาเอง)</td>
+                        <td>เริ่มต้น 399</td>
+                    </tr>
+                    <tr>
+                        <td>Party</td>
+                        <td>4–6 คน</td>
+                        <td>80 ไม้</td>
+                        <td>มีเตาให้ยืม 1 ชุด</td>
+                        <td>เริ่มต้น 799</td>
+                    </tr>
+                    <tr>
+                        <td>Premium</td>
+                        <td>8–10 คน</td>
+                        <td>150 ไม้</td>
+                        <td>มีเตาให้ยืม 2 ชุด + น้ำจิ้มพิเศษ</td>
+                        <td>เริ่มต้น 1,499</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- ปรับตัวเลข/ราคาให้ตรงกับธุรกิจจริงของคุณได้เลย -->
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Mala Blaze หม่าล่าปิ้งย่าง.
+    </footer>
+</body>
+</html>
