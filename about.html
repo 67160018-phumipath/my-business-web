@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เกี่ยวกับเรา - Mala Blaze หม่าล่าปิ้งย่าง</title>
+    <meta name="description" content="เรื่องราวของร้าน Mala Blaze หม่าล่าปิ้งย่าง ทีมงาน และเป้าหมายในการเสิร์ฟหม่าล่าสไตล์เสฉวนให้คนไทย">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #b30000;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 40px;
+        }
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto 40px;
+            padding: 0 20px;
+        }
+        h1, h2 {
+            color: #b30000;
+        }
+        .team-section {
+            display: grid;
+            gap: 20px;
+        }
+        @media (min-width: 768px) {
+            .team-section {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        figure {
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 15px;
+            text-align: center;
+        }
+        figure img {
+            max-width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        figcaption {
+            margin-top: 10px;
+        }
+        .back-link {
+            margin-top: 30px;
+            display: inline-block;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header + Navigation -->
+    <header>
+        <div class="logo-area">
+            <img src="images/logo.png" alt="โลโก้ร้าน Mala Blaze">
+            <div>
+                <strong>Mala Blaze</strong><br>
+                <small>หม่าล่าปิ้งย่าง & หม้อไฟเสฉวน</small>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">หน้าแรก</a>
+            <a href="about.html">เกี่ยวกับ</a>
+            <a href="services.html">บริการ</a>
+            <a href="contact.html">ติดต่อ</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2.1 เรื่องราวของบริษัท -->
+        <section aria-labelledby="about-story">
+            <h1 id="about-story">เกี่ยวกับ Mala Blaze</h1>
+            <p>
+                Mala Blaze เริ่มต้นจากความชอบกินหม่าล่าของกลุ่มเพื่อนที่เดินทางไปจีน
+                แล้วติดใจในรสชาติ เผ็ด ชา หอมเครื่องเทศเสฉวน
+                จึงกลับมาพัฒนาสูตรซอสและน้ำซุปให้เหมาะกับลิ้นคนไทย
+                โดยยังคงกลิ่นอายต้นตำรับไว้ให้มากที่สุด
+            </p>
+            <p>
+                เราเชื่อว่าหม่าล่าไม่ใช่แค่ของกินเล่น แต่เป็นประสบการณ์ร่วมโต๊ะ
+                ที่ทำให้เพื่อนและครอบครัวได้ใช้เวลาร่วมกันอย่างสนุกสนาน
+            </p>
+        </section>
+
+        <!-- 2.2 ทีม (ใช้ <figure> สําหรับแต่ละคน) -->
+        <section aria-labelledby="team-title">
+            <h2 id="team-title">ทีมของเรา</h2>
+            <div class="team-section">
+                <figure>
+                    <img src="images/team-founder.jpg" alt="รูปผู้ก่อตั้งร้าน Mala Blaze">
+                    <figcaption>
+                        <strong>คุณนัท</strong><br>
+                        ผู้ก่อตั้ง & พัฒนาสูตรหม่าล่า
+                        <p>ดูแลคุณภาพวัตถุดิบ และรสชาติซอสหม่าล่าทั้งหมดของร้าน</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/team-manager.jpg" alt="รูปผู้จัดการร้าน Mala Blaze">
+                    <figcaption>
+                        <strong>คุณเฟิร์ส</strong><br>
+                        ผู้จัดการร้าน & การบริการลูกค้า
+                        <p>ดูแลประสบการณ์หน้าร้านและเดลิเวอรี ให้ลูกค้าได้รับบริการที่ดีที่สุด</p>
+                    </figcaption>
+                </figure>
+                <!-- เพิ่มคนอื่นได้อีกโดยคัดลอก <figure> ไปวาง -->
+            </div>
+        </section>
+
+        <!-- 2.3 Mission / Vision -->
+        <section aria-labelledby="mv-title">
+            <h2 id="mv-title">วิสัยทัศน์และพันธกิจ</h2>
+            <h3>Vision (วิสัยทัศน์)</h3>
+            <p>
+                เป็นร้านหม่าล่าที่คนไทยนึกถึงเป็นอันดับแรก
+                เมื่ออยากกินหม่าล่าปิ้งย่างและหม้อไฟคุณภาพในราคาจับต้องได้
+            </p>
+            <h3>Mission (พันธกิจ)</h3>
+            <ul>
+                <li>เลือกใช้วัตถุดิบสดใหม่ สะอาด และปลอดภัย</li>
+                <li>รักษามาตรฐานรสชาติและคุณภาพอาหารทุกจาน</li>
+                <li>ให้บริการอย่างเป็นกันเอง รวดเร็ว และใส่ใจลูกค้า</li>
+                <li>พัฒนาเมนูใหม่ ๆ ให้เหมาะกับไลฟ์สไตล์คนรุ่นใหม่</li>
+            </ul>
+        </section>
+
+        <!-- 2.4 Link กลับหน้าแรก -->
+        <a href="index.html" class="back-link">← กลับไปหน้าแรก</a>
+    </main>
+
+    <footer>
+        &copy; 2025 Mala Blaze หม่าล่าปิ้งย่าง.
+    </footer>
+</body>
+</html>
