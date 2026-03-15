@@ -1,0 +1,271 @@
+/* =========================
+RESET
+========================= */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+font-size:16px;
+}
+
+body{
+font-family:Arial, sans-serif;
+line-height:1.6;
+background:#f8f8f8;
+}
+
+/* =========================
+TYPOGRAPHY
+========================= */
+
+h1{
+font-size:2.5rem;
+color:#b30000;
+}
+
+h2{
+font-size:2rem;
+color:#b30000;
+margin-bottom:1rem;
+}
+
+h3{
+font-size:1.4rem;
+}
+
+p{
+line-height:1.6;
+margin-bottom:1rem;
+}
+
+a{
+text-decoration:none;
+color:#b30000;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+/* =========================
+HEADER
+========================= */
+
+header{
+background:#b30000;
+color:white;
+padding:15px 20px;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.logo-area{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+header img{
+height:40px;
+}
+
+nav{
+display:flex;
+gap:15px;
+}
+
+nav a{
+color:white;
+font-weight:bold;
+}
+
+/* =========================
+HERO
+========================= */
+
+.hero{
+height:80vh;
+background:#ffe6e6;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+padding:2rem;
+}
+
+.hero h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+/* =========================
+BUTTON
+========================= */
+
+.btn-primary{
+display:inline-block;
+padding:10px 20px;
+
+background:#b30000;
+color:white;
+
+border-radius:5px;
+
+transition:0.3s;
+}
+
+.btn-primary:hover{
+transform:translateY(-2px);
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* =========================
+SERVICE GRID
+========================= */
+
+.service-grid{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.service-card{
+flex:1;
+min-width:250px;
+
+border:1px solid #ddd;
+border-radius:8px;
+
+padding:20px;
+background:white;
+
+transition:0.3s;
+}
+
+.service-card:hover{
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+transform:translateY(-5px);
+}
+
+/* =========================
+TEAM GRID
+========================= */
+
+.team-section{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+figure{
+border:1px solid #ddd;
+padding:15px;
+border-radius:6px;
+text-align:center;
+background:white;
+}
+
+figure img{
+width:100%;
+height:160px;
+object-fit:cover;
+border-radius:4px;
+}
+
+/* =========================
+SERVICES PAGE
+========================= */
+
+.service{
+border:1px solid #ddd;
+border-radius:6px;
+padding:20px;
+margin-bottom:20px;
+background:white;
+}
+
+/* =========================
+FORM
+========================= */
+
+form{
+border:1px solid #ddd;
+padding:20px;
+border-radius:6px;
+background:white;
+}
+
+label{
+display:block;
+margin-top:10px;
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+margin-top:5px;
+border:1px solid #ddd;
+}
+
+button{
+margin-top:15px;
+padding:10px 20px;
+
+background:#b30000;
+color:white;
+
+border:none;
+border-radius:4px;
+
+cursor:pointer;
+}
+
+button:hover{
+opacity:0.9;
+}
+
+/* =========================
+TABLE
+========================= */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:10px;
+text-align:center;
+}
+
+th{
+background:#f5f5f5;
+}
+
+/* =========================
+FOOTER
+========================= */
+
+footer{
+text-align:center;
+padding:20px;
+background:#333;
+color:white;
+margin-top:40px;
+font-size:0.9rem;
+}

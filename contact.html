@@ -1,180 +1,63 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ติดต่อเรา - Mala Blaze หม่าล่าปิ้งย่าง</title>
-    <meta name="description" content="ติดต่อร้าน Mala Blaze หม่าล่าปิ้งย่าง สำหรับสั่งจองชุดปิ้งย่าง ปาร์ตี้ และสอบถามข้อมูลเพิ่มเติม">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            line-height: 1.6;
-        }
-        header {
-            background: #b30000;
-            color: #fff;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        header img {
-            height: 40px;
-        }
-        .logo-area {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin-left: 15px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        main {
-            max-width: 900px;
-            margin: 20px auto 40px;
-            padding: 0 20px;
-        }
-        h1, h2 {
-            color: #b30000;
-        }
-        form {
-            border: 1px solid #ddd;
-            padding: 20px;
-            border-radius: 6px;
-            margin-bottom: 30px;
-        }
-        label {
-            display: block;
-            margin-top: 10px;
-        }
-        input[type="text"],
-        input[type="email"],
-        input[type="tel"],
-        textarea {
-            width: 100%;
-            padding: 8px;
-            margin-top: 4px;
-            box-sizing: border-box;
-        }
-        textarea {
-            min-height: 120px;
-        }
-        .form-note {
-            font-size: 0.85rem;
-            color: #555;
-        }
-        button[type="submit"] {
-            margin-top: 15px;
-            padding: 10px 20px;
-            border: none;
-            background: #b30000;
-            color: #fff;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        button[type="submit"]:hover {
-            opacity: 0.9;
-        }
-        .contact-info {
-            margin-bottom: 20px;
-        }
-        iframe {
-            border: 0;
-            width: 100%;
-            height: 300px;
-        }
-        footer {
-            text-align: center;
-            padding: 15px;
-            background: #333;
-            color: #fff;
-            font-size: 0.9rem;
-        }
-    </style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/styles.css">
+
+<title>ติดต่อ</title>
+
 </head>
+
 <body>
-    <!-- Header + Navigation -->
-    <header>
-        <div class="logo-area">
-            <img src="images/logo.png" alt="โลโก้ร้าน Mala Blaze">
-            <div>
-                <strong>Mala Blaze</strong><br>
-                <small>หม่าล่าปิ้งย่าง & หม้อไฟเสฉวน</small>
-            </div>
-        </div>
-        <nav>
-            <a href="index.html">หน้าแรก</a>
-            <a href="about.html">เกี่ยวกับ</a>
-            <a href="services.html">บริการ</a>
-            <a href="contact.html">ติดต่อ</a>
-        </nav>
-    </header>
 
-    <main>
-        <h1>ติดต่อ Mala Blaze</h1>
+<header>
 
-        <!-- 4.1 Contact Form + validation -->
-        <section aria-labelledby="contact-form-title">
-            <h2 id="contact-form-title">แบบฟอร์มติดต่อ</h2>
-            <form action="#" method="post">
-                <!-- ใช้ required และ type ต่าง ๆ เพื่อช่วย validation -->
-                <label for="name">ชื่อ-นามสกุล *</label>
-                <input type="text" id="name" name="name" required minlength="2" placeholder="กรอกชื่อของคุณ">
+<div class="logo-area">
+<img src="images/logo.png">
+<strong>Mala Blaze</strong>
+</div>
 
-                <label for="email">อีเมล *</label>
-                <input type="email" id="email" name="email" required placeholder="example@email.com">
+<nav>
+<a href="index.html">หน้าแรก</a>
+<a href="about.html">เกี่ยวกับ</a>
+<a href="services.html">บริการ</a>
+<a href="contact.html">ติดต่อ</a>
+</nav>
 
-                <label for="phone">เบอร์โทรศัพท์</label>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{9,10}" placeholder="เช่น 0812345678">
+</header>
 
-                <label for="subject">หัวข้อ</label>
-                <input type="text" id="subject" name="subject" placeholder="เช่น สอบถามแพ็กเกจปาร์ตี้">
 
-                <label for="message">ข้อความติดต่อ *</label>
-                <textarea id="message" name="message" required minlength="10" placeholder="กรอกรายละเอียดที่ต้องการติดต่อ"></textarea>
+<section style="padding:40px">
 
-                <p class="form-note">* ช่องที่มีเครื่องหมายดอกจัน จำเป็นต้องกรอก</p>
+<h1>ติดต่อเรา</h1>
 
-                <button type="submit">ส่งข้อความ</button>
-            </form>
-        </section>
+<form>
 
-        <!-- 4.2 ที่อยู่ของบริษัท -->
-        <section class="contact-info" aria-labelledby="address-title">
-            <h2 id="address-title">ที่อยู่ร้าน</h2>
-            <p>
-                Mala Blaze หม่าล่าปิ้งย่าง<br>
-                123/45 ถนนตัวอย่าง แขวง/ตำบลตัวอย่าง<br>
-                เขต/อำเภอตัวอย่าง จังหวัดตัวอย่าง 10110<br>
-                โทร: 08x-xxx-xxxx<br>
-                เวลาเปิด-ปิด: 16:00 – 23:00 น. (ปรับตามร้านจริงได้)
-            </p>
-        </section>
+<label>ชื่อ</label>
+<input type="text" required>
 
-        <!-- 4.3 แผนที่ (embed Google Maps ถ้าได้) -->
-        <section aria-labelledby="map-title">
-            <h2 id="map-title">แผนที่ร้าน</h2>
-            <!-- TODO: ให้คุณไปที่ Google Maps -> ร้านของคุณ -> แชร์ -> ฝังแผนที่ แล้วค่อยแทนที่ src ด้านล่าง -->
-            <iframe 
-                title="แผนที่ร้าน Mala Blaze"
-                src="https://www.google.com/maps/embed?pb=<!-- วางโค้ด pb จริงของคุณที่นี่ -->"
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-            <p class="form-note">
-                หมายเหตุ: อย่าลืมเปลี่ยนค่า <code>src</code> ของ &lt;iframe&gt; ให้เป็นโค้ดฝัง (embed) จริงจาก Google Maps ของร้าน
-            </p>
-        </section>
-    </main>
+<label>Email</label>
+<input type="email" required>
 
-    <footer>
-        &copy; 2025 Mala Blaze หม่าล่าปิ้งย่าง.
-    </footer>
+<label>ข้อความ</label>
+<textarea required></textarea>
+
+<button type="submit">ส่งข้อความ</button>
+
+</form>
+
+</section>
+
+
+<footer>
+
+&copy; 2025 Mala Blaze
+
+</footer>
+
 </body>
 </html>
